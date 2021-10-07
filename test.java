@@ -12,10 +12,10 @@ public class Main {
         for (int i = 0; i <= n; i++)
             {
                 if (isDoubloon(scn.nextLine())) {
-                    System.out.println("YES");
+                    System.out.println("ДА");
                 }
                 else {
-                    System.err.println("NO");
+                    System.err.println("НЕТ");
                 }
                 }
             }
