@@ -7,6 +7,7 @@ public class Main {
 
         System.out.print("Введите число строк: ");
         int n = scn.nextInt();
+        String[]a = new String[n];
         for (int i = 0; i <= n; i++) {
             if (isDoubloon(scn.nextLine())) {
                 System.out.println("ДА");
