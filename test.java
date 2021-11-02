@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 
-        System.out.print("Число строк: ");
+        System.out.print("Введите число строк: ");
         int n = scn.nextInt();
         String[] a = new String [n];
         for (int i = 0; i <= n; i++)
